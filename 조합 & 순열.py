@@ -1,5 +1,4 @@
-'''조합(combinations) & 순열(permutations)'''
-
+''' 조합 (combinations) '''
 
 # 조합 구현 (중복 조합 X) : itertools 사용
 from itertools import combinations
@@ -52,6 +51,8 @@ print()
 
 
 #################################################################
+
+''' 순열 (permutations) '''
 
 # 순열 구현 (중복 순열 X) : itertools 사용
 from itertools import permutations
