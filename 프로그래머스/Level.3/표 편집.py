@@ -30,7 +30,7 @@ def solution(n, k, cmd) :
         elif value == 'Z' :
             pre, next, now = deleted.pop()
             answer[now] = 'O'
-
+ 
             if pre == -1 :
                 info[next][0] = now
             elif next == n :
